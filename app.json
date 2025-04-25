@@ -48,7 +48,7 @@
       "value": "",
       "required": true
     },
-    "OWNER_NAME": {Br9n
+    "OWNER_NAME": {
       "description": "Insert your name here",
       "value": "",
       "required": false
@@ -75,4 +75,3 @@
       "plan": "heroku-postgresql:essential-0"
     }
   ]
-}
