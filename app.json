@@ -12,12 +12,12 @@
   "success_url": "/",
   "stack": "container",
   "env": {
-    "PREFIX": {.
+    "PREFIX": {
       "description": "Choose your bot's prefix",
       "value": ".",
       "required": true
     },
-      "ANTI_DELETE_MESSAGE": {yes
+      "ANTI_DELETE_MESSAGE": {
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
       "value": "yes",
       "required": false
@@ -28,17 +28,17 @@
       "value": "This is Keith personal assistant kindly leave a message",
       "required": false
     },
-    "BOT_NAME": {brian
+    "BOT_NAME": {
       "description": "You must give a name for your bot",
       "value": "",
       "required": false
     },
-    "TIMEZONE": {Africa/Nairobi
+    "TIMEZONE": {
       "description": "Set your bot timezone",
       "value": "Africa/Nairobi",
       "required": false
     },
-    "PUBLIC_MODE": {yes
+    "PUBLIC_MODE": {
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
       "value": "yes",
       "required": false
@@ -48,7 +48,7 @@
       "value": "",
       "required": true
     },
-    "OWNER_NAME": {Brian
+    "OWNER_NAME": {Br9n
       "description": "Insert your name here",
       "value": "",
       "required": false
@@ -58,7 +58,7 @@
       "value": "",
       "required": true
     },
-    "NUMERO_OWNER": {+254742630197}
+    "NUMERO_OWNER": {
       "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
       "value": "",
       "required": false
