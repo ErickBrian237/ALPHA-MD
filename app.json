@@ -12,12 +12,12 @@
   "success_url": "/",
   "stack": "container",
   "env": {
-    "PREFIX": {
+    "PREFIX": {.}
       "description": "Choose your bot's prefix",
       "value": ".",
       "required": true
     },
-      "ANTI_DELETE_MESSAGE": {
+      "ANTI_DELETE_MESSAGE": {yes}
       "description": "Enable anti-delete message (set 'yes' to activate or 'no' to deactivate)",
       "value": "yes",
       "required": false
@@ -28,27 +28,27 @@
       "value": "This is Keith personal assistant kindly leave a message",
       "required": false
     },
-    "BOT_NAME": {
+    "BOT_NAME": {brian}
       "description": "You must give a name for your bot",
       "value": "",
       "required": false
     },
-    "TIMEZONE": {
+    "TIMEZONE": {Africa/Nairobi}
       "description": "Set your bot timezone",
       "value": "Africa/Nairobi",
       "required": false
     },
-    "PUBLIC_MODE": {
+    "PUBLIC_MODE": {yes}
       "description": "Set 'yes' to make your bot public or 'no' to keep it private",
       "value": "yes",
       "required": false
     },
-    "SESSION_ID": {
+    "SESSION_ID": {ALPHA;;;H4sIAAAAAAAAA61Vy47jxhX9l9pKM+L7IaCBUKTYelESRVEvw4siWSRLfIoPSdRAC+cTstJGm8DwAAGCLBJkkczHzHpW+gSDrW5MA7bHbcBcXRSrzj333lOnPoA4wTkaogq0P4A0w3tYoDosqhSBNuiUrosy0AQOLCBog6Wmxx4RFkHHXiREgBn9oNE0566UvlBxw/1xt/IHGZyuCeEBnJsgLa0Q298AJCaLEM+NednIza4Pu/L2dFLZbV/e8y0rImIWx8vY96TZ0X4A5xoR4gzHXjf1UYQyGA5RNYU4exv9hsztJCHuJ7o/43thZ9U6Ol1xuRsYPgoGrUjFc4V29PlC1d5GX8qP4sLizHy1cw566OGGEWkDbdXdz7VlP2UUcaakXNpPFf1OP8dejJy+g+ICF9Wb+y4rIzSRk+pAQ4wmM7SamquVzaWbsEOrk67FmXwjli2tEedvI04fGjPR1xAOYjnuREkyE0etsmKjqtEKV2rEnIK5R0id0sxfE59mL1oJ/kjfjTE7T6r+bNgzDBgrFNYVwzvuZuUwnO+P/ojV6ZFCjKiwF7yN/q6KRvHRTP3ecBDhMUFYR1/SZ2nAH7rivtEvpQ1TGAeeJA9f6cOizL7FkuuRi7K32Uxo6M1IU1gqpi5MsUW6sR5F5YlfPo5dPecHVXgY57oxVNy9ww1bg1hdeCqxW+MkYi1qQa8n0ylBchZxMrf6w1NFAar6DmiT5ybIkIfzIoMFTuKnNYpqAujsDWRnqHhqL4gYfJz6VJUtNovg8dF0+o63L/pslYyDkmEx02LodaEKMGEeQBOkWWKjPEdOD+dFklUaynPooRy0v3uaVF10hqKkQAPsgDagWIZnKI4mSJH/S/7+4MMih2n6PkYFaAI3SyINgXaRlagJ7gcUtUMKIqlwrKyIrMBSstjtiDRLkgpLdem6xOiedI4jlBcwSkGb5BmWFWmBJc/NP4cHLQksT4sESzCKSsgduWYgiSQhy5xCS9S3eXDc+fsmiNGxuOu47j5NNoGLs7ww4zINE+i8iPzlJ7TtpIwLo4ptuQ5QBtqvllFR4NjL68rKGGa2j/dIrusAbReGOTo3gYP22EY1HvBUdxMT69OcG6oho7jZZDBCUj1BP4nvWzjachyGsN6JAoneMTzvvIO0KLxjSMhYBKIdBpGgbsfdQuozv6nojdkNhJm70UNjsk2Cnnuc7ZdeaYbYe1LlXYooQ85Lly1oB2U6TwIUfwO38FejSEpNNwjYbbaZ7eeNTjkTDZQdXuHeJQ7aH77atpw4Nd5cG+uGPF6Aelp1nl+ooU0yvxREDOvd4MvHHz5/+t/tevnP7Xr56Xa9/P12vfzr86e/3a6Xf9Th7Xr5eLte/nm7Xv77vKVe+7GO39+ul39//vT/Lx//WjN9HmPNwUEFxGFeu+1wop4kU6eEsjxI67VkSNJQkuqb9jL2Fzu5X1dLpYnOkOlJVOXkDXEzNkNoZuNTOZ2PqFIypNl2xR5n9krRfg0EtMGJttzxbpFrUyOobAHmR7NyecoirCi1c1R2+NYj27LSkosoxSy07qPf0CKBmrikao+pXZGLjyNqPkldU57u1rxow4bkPdTZ7vJ7ncxg0xPJWZuRqQlGwJPb4BC6ebh73KTcNLe8SIv6eyo56WQVGoVHJTR+VMZ7VqUHvDX13dbEt6R4FWXjmGh0p7RoBsbWuxvdk9GGzw8cfragu1hdjJ7ei+cx/u64v94b4tx8hfH8Av2GNjvLoyNKRtk5jPPYmu6X88VgGQ5PNr8lKjHzul53TTZsc6UeTuBcG0IawsJNsgi0QR5ZEDRBCPNC+nrvf8VKaKYJokpKU6OAxYtdAKn+BqwOzj8DJV2PblkJAAA=}
       "description": "Enter your session ID, the code you receive after scanning the QR code",
       "value": "",
       "required": true
     },
-    "OWNER_NAME": {
+    "OWNER_NAME": {Brian}
       "description": "Insert your name here",
       "value": "",
       "required": false
@@ -58,7 +58,7 @@
       "value": "",
       "required": true
     },
-    "NUMERO_OWNER": {
+    "NUMERO_OWNER": {+254742630197}
       "description": "Your phone number (exclude '+' and area code, e.g., '2547222222233')",
       "value": "",
       "required": false
